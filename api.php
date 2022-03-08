@@ -11,8 +11,8 @@
     ];
 
     $SoyInt = (bool) true ;
-    $RutUsu = (Object) [];
-    $rutUsu  -> levantar = (int) 5;
+    $rutUsu = (Object) [];
+    $rutUsu-> levantar = (int) 5;
     $vacio = null;
 
     //$notengoDependencia = uninitialized;
