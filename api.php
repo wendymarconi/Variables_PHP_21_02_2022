@@ -9,7 +9,6 @@
         (string) "Mirar Series",
         (string) "Viajar"
     ];
-
     $SoyInt = (bool) true ;
     $rutUsu = (Object) [];
     $rutUsu-> levantar = (int) 5;
@@ -24,6 +23,6 @@
     var_dump ($RutUsu);
     var_dump ($vacio);
 
-    echo ""
+    echo "";
 
 ?> 
