@@ -20,7 +20,7 @@
     echo $altUsu ;
     var_dump ($HobUsu);
     echo $SoyInt;
-    var_dump ($RutUsu);
+    var_dump ($rutUsu);
     var_dump ($vacio);
 
     echo "";
