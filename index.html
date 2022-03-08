@@ -1,19 +1,13 @@
-<?php
-header('Access-Control-Allow-Origin: *');
-echo "<h1>Comfenalco/DIPLOMADO-PHP-DFBPCH-2022</h1><hr>";
-$cadena = "<table>";
-$thefolder = "./";
-if ($handler = opendir($thefolder)) {
-    while (false !== ($file = readdir($handler))) {
-        if($file != ".." && $file != "." && $file != "folder.gif" && $file != ".htaccess" && $file != "index.php" && $file != ".grid"  ){
-            $cadena .= "<tr>
-                    <td><img src='folder.gif'><a href='/$file'> $file</a></td>
-                </tr>";
-        }
-            
-    }
-    closedir($handler);
-}
-$cadena .= "</table>";
-echo $cadena;
-?>
+<!DOCTYPE html>
+<html lang="sp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables</title>
+    <script>main.js</script>
+</head>
+<body>
+    
+</body>
+</html>
