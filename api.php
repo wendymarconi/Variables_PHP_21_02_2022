@@ -1,6 +1,6 @@
 <?php
     header('Access-Control-Allow-Origin: *');
-    $nomUsu = (String) "Wendy Johanna Marconi Quintero";
+    $nomUsu = (String) "Wendy Johanna Marconi Quintero ";
     $edaUsu = (int) 30 ;
     $altUsu = (float) 1.67;
 
