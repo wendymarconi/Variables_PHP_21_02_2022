@@ -22,6 +22,5 @@
     echo $SoyInt;
     var_dump ($rutUsu);
     var_dump ($vacio);
-
-    echo "";
+    
 ?> 
