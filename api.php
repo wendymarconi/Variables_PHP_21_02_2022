@@ -24,5 +24,4 @@
     var_dump ($vacio);
 
     echo "";
-
 ?> 
